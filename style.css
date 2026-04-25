@@ -1,4 +1,4 @@
-/* Feature 1: Custom CSS Color Palette (Chamberlain Vibe) */
+/* Custom CSS Color Palette */
 :root {
     --cream: #F9F7F2;
     --latte: #E2D1C3;
@@ -14,7 +14,7 @@ body {
     line-height: 1.6;
 }
 
-/* Feature 2: Flexbox Navigation */
+/* Flexbox Navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ nav a {
     margin-left: 20px;
 }
 
-/* Feature 3: Hero Section with rounded borders */
+/* Hero Section with rounded borders */
 .hero {
     text-align: center;
     padding: 50px 20px;
@@ -49,7 +49,7 @@ h1 {
     border: 5px solid white;
 }
 
-/* Feature 5: CSS Grid (3-column layout) */
+/* CSS Grid  */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
