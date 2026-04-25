@@ -1,0 +1,73 @@
+/* Feature 1: Custom CSS Color Palette (Chamberlain Vibe) */
+:root {
+    --cream: #F9F7F2;
+    --latte: #E2D1C3;
+    --sage: #A3B18A;
+    --espresso: #3D3028;
+}
+
+body {
+    background-color: var(--cream);
+    color: var(--espresso);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Feature 2: Flexbox Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--latte);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--espresso);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Feature 3: Hero Section with rounded borders */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, var(--latte), var(--cream));
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px; /* Feature 4: Styled Image */
+    margin-top: 20px;
+    border: 5px solid white;
+}
+
+/* Feature 5: CSS Grid (3-column layout) */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-bottom: 4px solid var(--sage);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
